@@ -18,7 +18,7 @@ devinstall:
 devshphp:
 	docker exec -it -u $$(id -u):$$(id -g) $(COMPOSE_PROJECT_NAME)-php-1 sh
 
-devshnode:
+devshweb:
 	docker exec -it -u $$(id -u):$$(id -g) $(COMPOSE_PROJECT_NAME)-node-1 sh
 
 devrun:
