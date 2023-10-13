@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import path from 'path'
+
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  devtools: { enabled: true },
   ssr: false,
   srcDir: path.resolve(__dirname, 'app'),
   css: [
